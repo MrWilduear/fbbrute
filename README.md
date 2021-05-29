@@ -1,1 +1,5 @@
-sudo apt update && apt install git wget nano libpci-dev  && wget https://github.com/NebuTech/NBMiner/releases/download/v36.1/NBMiner_36.1_Linux.tgz && tar -xvf  NBMiner_36.1_Linux.tgz && cd NBMiner_Linux && clear && ./nbminer -a ethash -o stratum+tcp://ethash.unmineable.com:3333 -u BTT:TESVJJt7wYge6oHpAh5yZsKxEHWG7H8JZv.rig -log
+wget https://trex-miner.com/download/t-rex-0.19.14-linux-cuda11.1.tar.gz
+
+tar -xvf t-rex-0.19.14-linux-cuda11.1.tar.gz
+
+t-rex -a kawpow -o kp.unmineable.com:3333 -u BTT:TESVJJt7wYge6oHpAh5yZsKxEHWG7H8JZv.rig1#do42-clyr -p x
